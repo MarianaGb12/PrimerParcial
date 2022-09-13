@@ -1,0 +1,21 @@
+@startuml
+left to right direction
+
+class Librarian{
+name: str
+list_books: list_books
+upload_ListofBooks(name_of_book: str)
+modify_ListofBooks(name_of_book: str)
+}
+
+class User{
+name: str
+id: int
+borrow_book(name:str)
+return_book(name : str)
+display_availableBooks()
+}
+
+Librarian "*" --*  "1" User
+
+@enduml

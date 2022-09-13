@@ -11,8 +11,8 @@ modify_ListofBooks(name_of_book: str)
 class User{
 name: str
 id: int
-borrow_book(name:str)
-return_book(name : str)
+borrow_book(name_of_book:str)
+return_book(name_of_book : str)
 display_availableBooks()
 }
 
